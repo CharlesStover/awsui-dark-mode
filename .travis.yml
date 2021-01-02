@@ -3,18 +3,18 @@ node_js: 14
 branches:
   only: master
 install:
-  - rm -rf ./.yarn/cache/
-  - rm -rf ./.yarn/sdks/
-  - rm -rf ./.yarn/unplugged/
-  - rm -rf ./.yarn/build-state.yml
-  - rm -rf ./.yarn/install-state.gz
-  - yarn
+- rm -rf ./.yarn/cache/
+- rm -rf ./.yarn/sdks/
+- rm -rf ./.yarn/unplugged/
+- rm -rf ./.yarn/build-state.yml
+- rm -rf ./.yarn/install-state.gz
+- yarn
 script:
-  - yarn build
-  - yarn test
+- yarn build
+- yarn test
 deploy:
   api_key:
-    secure:
+    secure: VKBnen19xb3aytI1UJqppwCqJ87w6/lhdWTpWSz0eoVCSHQ1C1vkwbqABLnqKkSawyPQsXGX+4tc0pLTcOWQRVg39RlTWsNbEL5JPZWrnb0lE6ZVxL6zOVfxfKZyQ3EF7cgDBvRGU/seJYRe/Zbs/peMI4ylUbsEP3/Wk9SzuHQlfXxxc5GPCl/ly2DlitpDW04DTQgOgSzX/G6DPsEOKgQChGGg/ZH7vW/NzQ8ZC161xm7o6odrmxX6KqE0ohLgDJeFVtydV2BLWemuSBVSx0Z/Eul4oq8kPW3wQL0raR841UNhDCBM6a5ThCAuZLFBuAClK1GV3aL690jA3Hvc6cNXSdRvgH6HzbNWJMZ+yBobTkLRXwx+pNJJuAaYaMcSWZK94zXhZQ1xwqslx0KlMoHUAffy7Uqws9nl01kmAulhzlzu1HK3IItGr79C20ztfnDbJInb4BQhbDsYpT0f+eMwhrRLWmGnPxhabC7YeG1fgStOSM6aK9xRTAWXbuf9DvFaKN2Y/Qx2DSYUVro/Sk4ButvSHrHIn4mpis0xqUrEh0wsn2yPHnTaNIRE9RbZTBjRWnE+08BU5XXP5ujmQcHTl+oyqj0rjfsmIAij7yriB8yjyidvquknYnU15n54nw4/IBYY34yhXvy2LHrK43j0McEnA2+AkSIzEMIFAVw=
   email: npmjs@charlesstover.com
   on:
     branch: master
