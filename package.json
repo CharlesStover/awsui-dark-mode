@@ -1,6 +1,6 @@
 {
   "name": "awsui-dark-mode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Charles Stover <awsui-dark-mode@charlesstover.com>",
   "description": "Applies dark mode to AWS UI components",
   "homepage": "https://www.npmjs.com/package/awsui-dark-mode",
@@ -35,7 +35,7 @@
     "test-watch": "jest --coverage=false --watch"
   },
   "dependencies": {
-    "awsui-theme": "^1.0.0"
+    "awsui-theme": "^1.0.1"
   },
   "devDependencies": {
     "@awsui/components-react": "^3.0.4",

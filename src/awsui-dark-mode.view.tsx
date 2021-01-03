@@ -16,6 +16,7 @@ const GRAY_300 = '#d5dbdb';
 const GRAY_450 = '#95a5a6';
 const GRAY_500 = '#879596';
 const GRAY_550 = '#687078';
+const GRAY_600 = '#545b64';
 const GRAY_650 = '#414750';
 const GRAY_700 = '#2a2e33';
 const GRAY_750 = '#21252c';
@@ -54,6 +55,7 @@ export default function AwsuiDarkMode({ children }: Props): ReactElement {
       backgroundNotificationBlue={BLUE_600}
       backgroundNotificationGreen={GREEN_600}
       backgroundNotificationRed={RED_600}
+      backgroundPopover={GRAY_600}
       backgroundStatusError={RED_900}
       backgroundStatusInfo={BLUE_900}
       backgroundStatusSuccess={GREEN_900}
