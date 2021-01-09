@@ -31,6 +31,27 @@ export default function App() {
 }
 ```
 
+## Customize
+
+To apply your own theme overrides to the AWS UI dark mode, use the
+[`awsui-theme`](https://www.npmjs.com/package/awsui-theme) package and mount the
+`AwsuiTheme` component _inside_ `AwsuiDarkMode`.
+
+```javascript
+import AwsuiDarkMode from 'awsui-dark-mode';
+import AwsuiTheme from 'awsui-theme';
+
+export default function App() {
+  return (
+    <AwsuiDarkMode>
+      <AwsuiTheme colorTextAccent="red">
+        <Home />
+      </AwsuiTheme>
+    </AwsuiDarkMode>
+  );
+}
+```
+
 ## Sponsor 💗
 
 If you are a fan of this project, you may

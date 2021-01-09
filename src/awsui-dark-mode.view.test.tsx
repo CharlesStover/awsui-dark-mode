@@ -3,6 +3,10 @@ import AwsuiDarkMode from '.';
 
 describe('AwsuiDarkMode', (): void => {
   it('should not crash', (): void => {
-    render(<AwsuiDarkMode />);
+    render(
+      <AwsuiDarkMode>
+        <>test</>
+      </AwsuiDarkMode>,
+    );
   });
 });
