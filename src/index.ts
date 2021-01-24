@@ -1,1 +1,1 @@
-export { default } from './awsui-dark-mode.view';
+export { default } from './components/awsui-dark-mode.view';

@@ -39,7 +39,7 @@
     "test-watch": "jest --coverage=false --watch"
   },
   "dependencies": {
-    "awsui-theme": "^1.0.3"
+    "awsui-theme": "^1.0.4"
   },
   "devDependencies": {
     "@awsui/components-react": "^3.0.9",
