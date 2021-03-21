@@ -4,7 +4,7 @@
 [![minzipped size](https://img.shields.io/bundlephobia/minzip/awsui-dark-mode.svg)](https://www.npmjs.com/package/awsui-dark-mode)
 [![downloads](https://img.shields.io/npm/dt/awsui-dark-mode.svg)](https://www.npmjs.com/package/awsui-dark-mode)
 
-The `AwsuiDarkMode` components applies a dark mode theme to all child node
+The `AwsuiDarkMode` component applies a dark mode theme to all child node
 [AWS UI components](https://www.npmjs.com/package/@awsui/components-react).
 
 - [Install](#install)
